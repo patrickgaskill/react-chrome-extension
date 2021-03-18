@@ -4,6 +4,8 @@
   "private": true,
   "dependencies": {
     "@babel/runtime": "^7.10.4",
+    "@stripe/react-stripe-js": "^1.4.0",
+    "@stripe/stripe-js": "^1.13.1",
     "autoprefixer": "^9.8.5",
     "case-sensitive-paths-webpack-plugin": "^2.3.0",
     "chalk": "^4.1.0",

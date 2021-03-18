@@ -19,6 +19,8 @@ class Main extends React.Component {
       >
         <FrameContextConsumer>
           {({ document, window }) => {
+            // Ideally there could be a way to call loadStripe here and use this window
+
             return <App document={document} window={window} isExt={true} />;
           }}
         </FrameContextConsumer>
